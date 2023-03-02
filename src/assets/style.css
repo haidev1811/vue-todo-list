@@ -1,0 +1,58 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html {
+	scroll-behavior: smooth;
+}
+body {
+	color: #252525;
+	font-family: "ProductSans", sans-serif;
+	font-size: 1rem;
+	letter-spacing: -0.3px;
+	overflow-x: hidden;
+}
+
+ul {
+	list-style-type: none;
+	margin-bottom: 0;
+}
+
+p {
+	margin-bottom: 0;
+}
+
+button {
+	border: none;
+	outline: none;
+	background-color: white;
+}
+
+input {
+	outline: none;
+}
+
+.container {
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+@media screen and (min-width: 768px) {
+	.container {
+		width: 750px;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	.container {
+		width: 970px;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.container {
+		width: 1170px;
+	}
+}
