@@ -50,4 +50,14 @@ export default {
 .bulk__action-item {
     margin-left: 15px;
 }
+@media screen and (max-width: 768px) {
+    .bulk__action-wrapper {
+        display: block;
+        padding: 20px;
+    }
+    .bulk__action-button {
+        justify-content: center;
+        margin-top: 5px;
+    }
+}
 </style>

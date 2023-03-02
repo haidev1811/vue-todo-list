@@ -183,4 +183,13 @@ label{
 .border-danger {
     border-color: #dc3545;
 }
+@media screen and (max-width: 768px) {
+    .form__input-flex {
+        display: block;
+    }
+    .form__input-option {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
 </style>

@@ -90,6 +90,7 @@ export default {
 }
 .label__title{
     margin-left: 10px;
+    word-break: break-all;
 }
 .left {
     display: flex;
@@ -103,5 +104,17 @@ export default {
 }
 .todo__item-detail {
     padding: 30px 20px;
+}
+@media screen and (max-width: 768px) {
+    .todo__item-summary {
+        display: block;
+    }
+    .right {
+        margin-top: 5px;
+        justify-content: space-between;
+    }
+    .button__option {
+        margin-left: 0;
+    }
 }
 </style>

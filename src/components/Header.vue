@@ -59,4 +59,12 @@ h2 {
     position: absolute;
     right: 0;
 }
+@media screen and (max-width: 768px) {
+    .header {
+        justify-content: space-between;
+    }
+	.button-right {
+        position: unset;
+    }
+}
 </style>
